@@ -1,0 +1,14 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# Azure credentials
+*.pub
+*.key
+credentials.json
+azure.json
